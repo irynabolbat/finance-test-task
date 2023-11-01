@@ -1,0 +1,55 @@
+.ticker_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  
+  border-top: 0.5px solid rgb(186, 186, 186);
+  margin-inline: 20%;
+  cursor: pointer;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.ticker_wrapper:hover {
+  font-size: 18px;
+}
+
+.ticker_container {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 80px;
+}
+
+.ticker_info {
+  display: flex;
+  justify-content: end;
+  width: 80px;
+}
+
+.ticker_image {
+  width: 20px;
+  height: 20px;
+}
+
+.green {
+  background-color: rgb(230, 244, 234);
+  color: rgb(19, 115, 51);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.green_text {
+  color: rgb(19, 115, 51);
+}
+
+.red {
+  background-color: rgb(252, 232, 230);
+  color: rgb(165, 14, 14);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.red_text {
+  color: rgb(165, 14, 14);
+}
